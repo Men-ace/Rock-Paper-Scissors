@@ -5,4 +5,5 @@ function playGame(userChoice) {
     if (userChoice === computerChoice) {
         result = "It's a tie!";
     } else if (
-        (userChoice === 'rock' && computerChoice === 'scissors') ||}
+        (userChoice === 'rock' && computerChoice === 'scissors') ||
+        (userChoice === 'paper' && computerChoice === 'rock') ||}
