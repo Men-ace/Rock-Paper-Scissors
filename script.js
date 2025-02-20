@@ -6,4 +6,9 @@ function playGame(userChoice) {
         result = "It's a tie!";
     } else if (
         (userChoice === 'rock' && computerChoice === 'scissors') ||
-        (userChoice === 'paper' && computerChoice === 'rock') ||}
+        (userChoice === 'paper' && computerChoice === 'rock') ||
+    ) {
+        result = "You win!";
+    } else {
+        result = "You lose!";
+    }}
